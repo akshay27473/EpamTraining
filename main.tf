@@ -12,8 +12,10 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-east-1"
- access_key = "AKIA2LF6FNSWQGCH44RF"
- secret_key = "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"
+ 
+ 
+
+
 }
 
 # use data source to get all avalablility zones in region
